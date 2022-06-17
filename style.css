@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppings',cursive;
+}
+@media screen and (min-width:375px) and (max-width:1440px){
+
+  body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 129, 129);
+    background-image: url(images/bg-intro-desktop.png);
+  }
+  .login {
+    box-sizing: border-box;
+    max-width: 700px;
+    background: rgb(255, 253, 253);
+    padding: 25px 30px;
+    margin-left: 60px;
+    margin-top: 10px;
+    border-radius: 15px;
+  }
+  .login form .user-details {
+    display: block;
+    padding: 12px;
+    margin: 0px;
+  }
+  form .user-details .input-box {
+    margin-top: 12px;
+  }
+  .user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 15px;
+    border-bottom-width: 3px;
+  }
+  .user-details .input-box input:focus,
+  .user-details .input-box input:valid {
+    border-color: grey;
+  }
+  .word {
+    color: #fffbfb;
+  }
+  .word h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  .word p {
+    font-size: 16px;
+  }
+  .trial button {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    padding: 25px 30px;
+    width: 1000px;
+    margin-left: 70px;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    height: 20px;
+    background-color: hsl(248, 32%, 49%);
+    border: none;
+    align-items: center;
+    cursor: pointer;
+  }
+  .trial p {
+    text-align: center;
+    margin: auto;
+    color: rgb(206, 206, 206);
+  }
+  .trial b {
+    color: #f0f0f0;
+  }
+  .claim button {
+    max-width: 500px;
+    padding: 25px 30px;
+    width: 700px;
+    align-items: center;
+    border-radius: 10px;
+    height: 20px;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    margin-top: 20px;
+    color:#fffbfb;
+    margin-left: 17px;
+    cursor: pointer;
+  }
+  .claim p {
+    font-size: 17px;
+  }
+  .terms {
+    text-align: center;
+    margin: auto;
+    padding-top: 16px;
+    color: grey;
+  }
+  .terms b {
+    color: rgb(243, 99, 123);
+  }
+button{
+  justify-content: center;
+  display: flex;
+}
+  
+}
+@media (max-width: 375px) {
+  body {
+    display: block;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 129, 129);
+    background-image: url(images/bg-intro-desktop.png);
+  }
+  .login {
+    box-sizing: border-box;
+    max-width: 400px;
+    background: #fff;
+    padding: 15px 20px;
+    margin: auto;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 350px;
+  }
+  .login form .user-details {
+    display: block;
+    padding: 12px;
+    margin: 0px;
+  }
+  form .user-details .input-box {
+    margin-top: 12px;
+  }
+  .user-details .input-box input {
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 12px;
+    border-bottom-width: 3px;
+  }
+  .user-details .input-box input:focus,
+  .user-details .input-box input:valid {
+    border-color: grey;
+  }
+  .word {
+    color: #fffbfb;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+  .word h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    width: 300px;
+    padding-left: 50px;
+  }
+  .word p {
+    font-size: 15px;
+    width: 300px;
+    padding-left: 50px;
+    margin-bottom: 40px;
+  }
+  .trial button {
+    max-width: 100%;
+    padding: 25px 30px;
+    width: 330px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 80px;
+    background-color: hsl(248, 32%, 49%);
+    border: none;
+    align-items: center;
+    cursor: pointer;
+  }
+  .trial p {
+    text-align: center;
+    margin: auto;
+    color: rgb(206, 206, 206);
+  }
+  .trial b {
+    color: #fffbfb;
+  }
+  .claim button {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding: 25px 30px;
+    width: 330px;
+    align-items: center;
+    border-radius: 10px;
+    height: 90px;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    margin-top: 20px;
+    color: #fffbfb;
+    margin-left: 1px;
+    cursor: pointer;
+  }
+  .claim p {
+    font-size: 17px;
+  }
+  .terms {
+    text-align: center;
+    margin: auto;
+    padding-top: 16px;
+    color: grey;
+  }
+  .terms b {
+    color: rgb(243, 99, 123);
+  }
+
+}
+  
